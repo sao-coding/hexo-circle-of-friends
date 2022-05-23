@@ -17,7 +17,7 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK = [
     {
-        "link": "https://zfe.space/link/",  # 友链页地址1，修改为你的友链页地址
+        "link": "https://sao-coding.github.io/link/",  # 友链页地址1，修改为你的友链页地址
         "theme": "butterfly"
     },
     #     {
@@ -67,10 +67,10 @@ GITEE_FRIENDS_LINKS = {
 # get links from github
 # 从github issue中获取友链
 GITHUB_FRIENDS_LINKS = {
-    "enable": False,  # True 开启github issue兼容
-    "type": "normal",  # volantis/stellar用户请在这里填写volantis
-    "owner": "ccknbc",  # 填写你的github用户名
-    "repo": "ccknbc-actions",  # 填写你的github仓库名
+    "enable": True,  # True 开启github issue兼容
+    "type": "volantis",  # volantis/stellar用户请在这里填写volantis
+    "owner": "sao-coding",  # 填写你的github用户名
+    "repo": "blog-gitalk",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
